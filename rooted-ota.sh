@@ -36,7 +36,7 @@ OTA_VERSION=${OTA_VERSION:-'latest'}
 # Find latest magisk version here: https://github.com/pixincreate/Magisk/releases, or:
 # curl --fail -sL -I -o /dev/null -w '%{url_effective}' https://github.com/pixincreate/Magisk/releases/latest | sed 's/.*\/tag\///;'
 # renovate: datasource=github-releases packageName=pixincreate/Magisk versioning=semver-coerced
-DEFAULT_MAGISK_VERSION=v29.0
+DEFAULT_MAGISK_VERSION=latest
 MAGISK_VERSION=${MAGISK_VERSION:-${DEFAULT_MAGISK_VERSION}}
 
 SKIP_CLEANUP=${SKIP_CLEANUP:-''}
